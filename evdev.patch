@@ -1,13 +1,13 @@
 --- /usr/share/X11/xkb/rules/evdev.xml	2018-07-15 11:16:17.000000000 -0700
-+++ evdev.xml	2018-10-25 22:04:00.905055741 -0700
-@@ -6082,6 +6082,17 @@
++++ evdev.xml	2019-03-31 18:31:02.868643027 -0700
+@@ -6082,6 +6082,29 @@
         </variant>
        </variantList>
      </layout>
 +    <layout>
 +      <configItem>
 +        <name>egy_trans</name>
-+        <shortDescription>mḏt nṯr</shortDescription>
++        <shortDescription>𓊹𓌃</shortDescription>
 +        <description>Ancient Egyptian latin transliteration (US)</description>
 +        <languageList>
 +          <iso639Id>egy</iso639Id>
