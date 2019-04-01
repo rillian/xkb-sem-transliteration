@@ -15,10 +15,22 @@
 +        </languageList>
 +      </configItem>
 +    </layout>
++    <layout>
++      <configItem>
++        <name>akk_trans</name>
++        <shortDescription>𒀝𒀜𒄿</shortDescription>
++        <description>Akkadian latin transliteration (US)</description>
++        <languageList>
++          <iso639Id>akk</iso639Id>
++          <iso639Id>sem</iso639Id>
++          <iso639Id>afa</iso639Id>
++        </languageList>
++      </configItem>
++    </layout>
    </layoutList>
    <optionList>
      <group allowMultipleSelection="true">
-@@ -7282,4 +7293,4 @@
+@@ -7282,4 +7305,4 @@
        </option>
      </group>
    </optionList>
