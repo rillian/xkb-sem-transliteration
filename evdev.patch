@@ -1,5 +1,5 @@
---- /usr/share/X11/xkb/rules/evdev.xml	2018-07-15 11:16:17.000000000 -0700
-+++ evdev.xml	2019-03-31 18:31:02.868643027 -0700
+--- /usr/share/X11/xkb/rules/evdev.xml	2019-03-31 22:17:32.422947046 -0700
++++ evdev.xml	2019-03-31 22:15:13.980028740 -0700
 @@ -6082,6 +6082,29 @@
         </variant>
        </variantList>
@@ -18,8 +18,8 @@
 +    <layout>
 +      <configItem>
 +        <name>akk_trans</name>
-+        <shortDescription>𒀝𒀜𒄿</shortDescription>
-+        <description>Akkadian latin transliteration (US)</description>
++	<shortDescription>𒀝</shortDescription>
++	<description>Akkadian latin transliteration (US)<description>
 +        <languageList>
 +          <iso639Id>akk</iso639Id>
 +          <iso639Id>sem</iso639Id>
@@ -30,10 +30,3 @@
    </layoutList>
    <optionList>
      <group allowMultipleSelection="true">
-@@ -7282,4 +7305,4 @@
-       </option>
-     </group>
-   </optionList>
--</xkbConfigRegistry>
-\ No newline at end of file
-+</xkbConfigRegistry>
