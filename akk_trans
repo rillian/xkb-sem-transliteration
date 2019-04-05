@@ -25,7 +25,7 @@ xkb_symbols "basic" {
     key <AD06> {	[	  y,	Y		]	};
     key <AD07> {	[	  u,	U		]	};
     key <AD08> {	[	  i,	I		]	};
-    key <AD09> {	[	  o,	O		]	};
+    key <AD09> {	[     U1E6D,	U1E6C		]	};
     key <AD10> {	[	  p,	P		]	};
     key <AD11> {	[ bracketleft,	braceleft	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
@@ -39,8 +39,8 @@ xkb_symbols "basic" {
     key <AC07> {	[	  j,	J		]	};
     key <AC08> {	[	  k,	K		]	};
     key <AC09> {	[	  l,	L		]	};
-    key <AC10> {	[ dead_macro,   dead_circumflex, semicolon, colon ] };
-    key <AC11> {	[ apostrophe,	quotedbl	]	};
+    key <AC10> {	[ dead_macron,  semicolon, colon ] };
+    key <AC11> {	[ dead_circumflex, apostrophe,	quotedbl ] };
 
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[     U1E2B,	U1E96		]	};
