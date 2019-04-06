@@ -43,7 +43,7 @@ xkb_symbols "basic" {
     key <AC11> {	[ dead_circumflex, apostrophe,	quotedbl ] };
 
     key <AB01> {	[	  z,	Z 		]	};
-    key <AB02> {	[     U1E2B,	U1E96		]	};
+    key <AB02> {	[         x,	X		]	};
     key <AB03> {	[	  s,	S		]	};
     key <AB04> {	[	  v,	V		]	};
     key <AB05> {	[	  b,	B		]	};
