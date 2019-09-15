@@ -30,20 +30,20 @@ row1 = ['ⲑ', 'ⲱ', 'ⲉ', 'ⲣ', 'ⲧ', 'ⲯ', 'ⲩ', 'ⲓ', 'ⲟ', 'ⲡ', '�
 for i, c in enumerate(row1):
     lower = f'U{ord(c):04X}'
     upper = f'U{ord(c) - 1:04X}'
-    print(f'    key <AD{i:02d}> {{ [ {lower}, {upper} ] }};')
+    print(f'    key <AD{i + 1:02d}> {{ [ {lower}, {upper} ] }};')
 print('    key <AD12> {	[ bracketleft,	bracketright	]	};')
 
 row2 = ['ⲁ', 'ⲥ', 'ⲇ', 'ϥ', 'ⲅ', 'ϩ', 'ϫ', 'ⲕ', 'ⲗ', 'ϧ', 'ⳉ']
 for i, c in enumerate(row2):
     lower = f'U{ord(c):04X}'
     upper = f'U{ord(c) - 1:04X}'
-    print(f'    key <AC{i:02d}> {{ [ {lower}, {upper} ] }};')
+    print(f'    key <AC{i + 1:02d}> {{ [ {lower}, {upper} ] }};')
 
 row3 = ['ⲍ', 'ⲝ', 'ⲭ', 'ⲫ', 'ⲃ', 'ⲛ', 'ⲙ', 'ϭ', 'ϯ', 'ⲏ']
 for i, c in enumerate(row2):
     lower = f'U{ord(c):04X}'
     upper = f'U{ord(c) - 1:04X}'
-    print(f'    key <AB{i:02d}> {{ [ {lower}, {upper} ] }};')
+    print(f'    key <AB{i + 1:02d}> {{ [ {lower}, {upper} ] }};')
 
 print('''
     key <BKSL> {	[ backslash,         bar	]	};
