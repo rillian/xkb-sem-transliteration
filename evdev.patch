@@ -1,6 +1,6 @@
---- /usr/share/X11/xkb/rules/evdev.xml	2019-03-31 22:17:32.422947046 -0700
-+++ evdev.xml	2019-03-31 22:15:13.980028740 -0700
-@@ -6082,6 +6082,29 @@
+--- /usr/share/X11/xkb/rules/evdev.xml	2019-05-26 17:42:37.000000000 -0700
++++ evdev.xml	2019-09-14 22:50:48.032500132 -0700
+@@ -6194,6 +6194,39 @@
         </variant>
        </variantList>
      </layout>
@@ -27,6 +27,23 @@
 +        </languageList>
 +      </configItem>
 +    </layout>
++    <layout>
++      <configItem>
++        <name>coptic</name>
++	<shortDescription>ⲕⲏⲙⲉ</shortDescription>
++        <description>Coptic<description>
++        <languageList>
++          <iso639Id>cop</iso639Id>
++        </languageList>
++      </configItem>
++    </layout>
    </layoutList>
    <optionList>
      <group allowMultipleSelection="true">
+@@ -7388,4 +7421,4 @@
+       </option>
+     </group>
+   </optionList>
+-</xkbConfigRegistry>
+\ No newline at end of file
++</xkbConfigRegistry>
