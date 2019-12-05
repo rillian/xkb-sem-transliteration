@@ -40,7 +40,7 @@ for i, c in enumerate(row2):
     print(f'    key <AC{i + 1:02d}> {{ [ {lower}, {upper} ] }};')
 
 row3 = ['ⲍ', 'ⲝ', 'ⲭ', 'ⲫ', 'ⲃ', 'ⲛ', 'ⲙ', 'ϭ', 'ϯ', 'ⲏ']
-for i, c in enumerate(row2):
+for i, c in enumerate(row3):
     lower = f'U{ord(c):04X}'
     upper = f'U{ord(c) - 1:04X}'
     print(f'    key <AB{i + 1:02d}> {{ [ {lower}, {upper} ] }};')
