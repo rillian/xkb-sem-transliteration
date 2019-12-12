@@ -22,7 +22,7 @@ print('''
     key <AE08> {	[	  8,	asterisk	]	};
     key <AE09> {	[	  9,	parenleft	]	};
     key <AE10> {	[	  0,	parenright	]	};
-    key <AE11> {	[     minus,	underscore	]	};
+    key <AE11> {	[     U0305,    minus,	underscore	]	};
     key <AE12> {	[     equal,	plus		]	};
 ''')
 
