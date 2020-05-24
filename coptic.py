@@ -10,6 +10,9 @@ print()
 print('   name[Group1]= "Coptic";')
 
 # Numbers like a normal US qwerty layout.
+# Final punctuation keys are used for the combining overline,
+# marking abbreviations, the diaeresis, and the single and
+# double hyphens used to to mark morpheme divisions.
 print('''
     key <TLDE> {	[     grave,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
@@ -45,7 +48,10 @@ for i, c in enumerate(row3):
     upper = f'U{ord(c) - 1:04X}'
     print(f'    key <AB{i + 1:02d}> {{ [ {lower}, {upper} ] }};')
 
+# The backslash key on ISO/ANSI keyboards is used for the combining
+# macron marking syllabic consonants and the combinding underdot
+# for marking uncertain readings in manuscript transcription.
 print('''
-    key <BKSL> {	[ backslash,         bar	]	};
+    key <BKSL> { [ U0304, U0323 ] };
 ''')
 print('};')
