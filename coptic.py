@@ -3,6 +3,11 @@
 # Generate an xkb symbol file for Coptic.
 # Based on the soft keyboard at https://coptic-dictionary.org/
 
+# Comment heqder.
+print('// Coptic language layout based on coptic-dictionary.org')
+print('// with added diacritics.')
+print()
+
 # xkb symbol file header.
 print('default  partial alphanumeric_keys modifier_keys')
 print('xkb_symbols "basic" {')
