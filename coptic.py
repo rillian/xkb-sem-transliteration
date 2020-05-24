@@ -14,7 +14,7 @@ print('   name[Group1]= "Coptic";')
 # marking abbreviations, the diaeresis, and the single and
 # double hyphens used to to mark morpheme divisions.
 print('''
-    key <TLDE> {	[     grave,	asciitilde	]	};
+    key <TLDE> {	[     U0300,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
     key <AE02> {	[	  2,	at		]	};
     key <AE03> {	[	  3,	numbersign	]	};
