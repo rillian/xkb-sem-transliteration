@@ -30,8 +30,8 @@ print('''
     key <AE08> {	[	  8,	asterisk	]	};
     key <AE09> {	[	  9,	parenleft	]	};
     key <AE10> {	[	  0,	parenright	]	};
-    key <AE11> {	[     U0305,    minus,	underscore	]	};
-    key <AE12> {	[     U0308,    U2E17,    equal, plus   ]	};
+    key <AE11> {	[     U0305,    minus,  underscore    ]	};
+    key <AE12> {	[     U0308,    U2E17,  equal, plus   ]	};
 ''')
 
 row1 = ['ⲑ', 'ⲱ', 'ⲉ', 'ⲣ', 'ⲧ', 'ⲯ', 'ⲩ', 'ⲓ', 'ⲟ', 'ⲡ', 'ϣ']
